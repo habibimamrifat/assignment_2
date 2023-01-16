@@ -1,8 +1,8 @@
-img
+/* img
 {
 width: 100%;
 height: 100%;
-}
+} */
 /* --------------------
 navbar design 
 ----------------------*/
@@ -221,6 +221,10 @@ first container
     font-size: 16px;
     color: #727272;
 }
+.sc_pic
+{
+    width: 100%;
+}
 .sc_pic_btn
 {
  width: 342px;
@@ -256,8 +260,6 @@ color: #131313;
 
 .some_fact_articel
 {
-    width: 542px;
-height: 52px;
     font-weight: 400;
     font-size: 16px;
     color: #727272;
@@ -287,7 +289,7 @@ height: 52px;
 .icon:hover
 {
 transform: rotate(180deg);
-background-color: #FF900E;
+background-color: #e9e9e9;
 }
 
 /* our sponcer */
@@ -319,6 +321,7 @@ background-color: #FF900E;
 {
     display: flex;
     justify-content: space-around;
+    gap: 20px;
     margin-bottom: 130px;
 }
 /*-------------------
