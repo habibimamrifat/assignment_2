@@ -1,0 +1,337 @@
+
+/* --------------------
+navbar design 
+----------------------*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+    
+}
+
+.nav_title
+{
+    color: #131313;
+    font-weight: 700;
+font-size: 45px;
+}
+
+.nav_links
+{
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: 55px;
+}
+.navbar li
+{
+    padding-top: 15px;
+padding-right: 5em;
+font-weight: 500;
+font-size: 18px;
+}
+.nav_a
+{
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+/*-------------
+ banner design
+---------------- */
+
+
+.banner
+{
+text-align: center;
+background-color: wheat;
+margin-bottom: 30px;
+}
+
+.banner_articel
+{
+padding: 0 25%;
+}
+
+.banner_title
+{
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0;      
+}
+
+.banner_about
+{
+font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-bottom: 33px;
+}
+.banner_button
+{
+width: 180px;
+height: 64px;
+font-weight: 600;
+font-size: 20px;
+padding: 20px 25px;
+background-color:#FF900E;
+border: none;
+border-radius: 5px;
+margin-bottom: 35px;
+
+}
+
+.banner_img
+{
+    width: 80%;
+    margin-bottom: 110px;
+    
+}
+
+/*---------------
+ for main part 
+---------------*/
+
+
+/* ------------
+first container 
+ ----------------*/
+.first_container
+    {
+        display: flex;
+        gap: 5%;
+        padding-left:8%;
+        padding-right: 8%;
+        margin-bottom: 130px;
+    }
+
+ .first_container_pic
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 24px;
+    }
+ .first_container_articel
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: left;
+
+    }
+ .fc_articel_title
+    {
+        font-weight: 500;
+        font-size: 45px;
+    }
+.fc_articel_description
+    {
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+    }
+
+.fc_button
+    {
+        position: relative;
+        right: 90px;
+        width: 180px;
+        height: 64px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #FFFFFF;
+        background-color: #FF900E;
+        border: none;
+        border-radius: 5px; 
+        
+    }
+
+
+ /*--------------
+ second container 
+ ------------------ */
+
+ 
+ .second_container
+ {
+    display: flex;
+    gap: 5%;
+    padding-left:8%;
+    padding-right: 8%;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+      
+ }
+
+
+ .second_container_articel
+{
+   text-align: left;
+  
+}
+
+.sc_articel_title
+{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+    margin-left: 5px;
+    padding-left: 10px;
+    border-left: 4px solid #FF900E ;
+   
+}
+
+.sc_articel_description
+{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.sc_sub_articel
+{
+    position: relative;
+    left: 10px;
+   
+}
+.sc_sub
+{
+    margin-bottom: 30px;
+    
+}
+.sc_sub_title
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+.sc_sub_descrption
+{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sc_pic_btn
+{
+ width: 342px;
+height: 200px;
+position: relative;
+top: -150px;
+right: 50px;
+font-weight: 800;
+font-size: 50px;
+color: #FFFFFF;
+background-color: #FF900E;
+border: none;
+border-radius: 20px;
+
+}
+
+/*---------
+ some facts 
+-------------- */
+
+.some_facts
+{
+    margin: 0 10%;
+    margin-bottom: 130px;
+}
+
+.some_facts_title
+{
+font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+
+.some_fact_articel
+{
+    width: 542px;
+height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+
+.some_facts_icons
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   grid-column-gap: 50px;
+   align-items: center;
+    
+}
+
+.icon
+{
+    
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+       
+}
+
+.icon:hover
+{
+transform: rotate(180deg);
+background-color: #FF900E;
+}
+
+/* somefacts */
+
+.our_sponsor
+{
+    margin: 0 10%;
+}
+
+.our_sponsor_articel
+{
+    text-align: center;
+}
+.our_sponsor_title
+{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.our_sponsor_description
+{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponsor_icons
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+.footer
+{
+    display: flex;
+    
+height: 100px;
+background-color: #FFF4E7;
+justify-content: center;
+align-items: center;
+}
+
+.f
+{
+    font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #424242;
+
+}
